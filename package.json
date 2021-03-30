@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/app.js",
+    "start:json-server": "json-server jsonServer/db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
     "graphql": "^15.5.0",
+    "json-server": "^0.16.3",
     "lodash": "^4.17.21",
     "nodemon": "^2.0.7"
   }
