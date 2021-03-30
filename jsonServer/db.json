@@ -4,25 +4,41 @@
     "id": "12",
     "firstName": "jack",
     "lastName": "sparrow",
-    "age": 23
+    "age": 23,
+    "companyId": 1
   },
   {
     "id": "13",
     "firstName": "jill",
     "lastName": "sparrow",
-    "age": 24
+    "age": 24,
+    "companyId": 2
   },
   {
     "id": "18",
     "firstName": "tom",
     "lastName": "holland",
-    "age": 29
+    "age": 29,
+    "companyId": 2
   },
   {
     "id": "23",
     "firstName": "Abhishek",
     "lastName": "Gangwar",
-    "age": 29
+    "age": 29,
+    "companyId": 1
+  }
+],
+"companies": [
+  {
+    "id": 1,
+    "name" : "Apple Inc.",
+    "description": "IPhone makers"
+  },
+  {
+    "id": 2,
+    "name": "Google",
+    "description": "Biggest search engine"
   }
 ]
 }
